@@ -205,7 +205,7 @@ void setup() {
       if (i == j) {
         valuesA[index] = 1;
       } else {
-        valuesA[index] = 0;
+        valuesA[index] = (i*2) + 1;
       }
     }
   }
